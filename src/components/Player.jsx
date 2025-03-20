@@ -16,7 +16,7 @@ export default function Player() {
             <input 
                 ref={player}
                 type="text" 
-                className="px-3 py-2 outline-none border border-cold-dark-grey bg-transparent rounded-xl" 
+                className="px-3 py-2 outline-hidden border border-cold-dark-grey bg-transparent rounded-xl" 
                 placeholder="Enter your name.." />
             <button 
                 onClick={handleClick}
